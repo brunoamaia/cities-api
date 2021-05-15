@@ -1,6 +1,7 @@
 package com.github.brunoamaia.citiesapi.staties;
 
 import java.util.List;
+import com.github.brunoamaia.citiesapi.staties.repository.StateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
