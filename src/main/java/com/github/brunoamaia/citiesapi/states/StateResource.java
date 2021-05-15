@@ -1,13 +1,13 @@
-package com.github.brunoamaia.citiesapi.staties;
+package com.github.brunoamaia.citiesapi.states;
 
 import java.util.List;
-import com.github.brunoamaia.citiesapi.staties.repository.StateRepository;
+import com.github.brunoamaia.citiesapi.states.repository.StateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/staties")
+@RequestMapping("/states")
 public class StateResource {
 
     private final StateRepository repository;
@@ -17,7 +17,7 @@ public class StateResource {
     }
 
     @GetMapping
-    public List<State> staties() {
+    public List<State> states() {
         return repository.findAll();
     }
 }
