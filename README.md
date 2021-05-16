@@ -1,4 +1,15 @@
 # Cities API
+consult list (Heroku server):
+- base url: https://cities-api-bam.herokuapp.com/
+
++ consults url:
+  + [coutries](https://cities-api-bam.herokuapp.com)
+  + [countries/id](https://cities-api-bam.herokuapp.com/countries/id)
+  + [states](https://cities-api-bam.herokuapp.com/states)
+  + [cities](https://cities-api-bam.herokuapp.com/cities)
+  + [distances/by-cube?from=4929&to=5254](https://cities-api-bam.herokuapp.com/distances/by-cube?from=4929&to=5254])   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [from = id_city_a, to = id_city_b ] - in meters
+  + [distances/by-points?from=4929&to=5254](https://cities-api-bam.herokuapp.com/distances/by-points?from=4929&to=5254) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [from = id_city_a, to = id_city_b ] - in miles
+
 ## Requirements
 * Java 8
 * PostgreSQL / Docker
