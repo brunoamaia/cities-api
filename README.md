@@ -3,7 +3,7 @@ consult list (Heroku server):
 - base url: https://cities-api-bam.herokuapp.com/
 
 + consults url:
-  + [coutries](https://cities-api-bam.herokuapp.com)
+  + [coutries](https://cities-api-bam.herokuapp.com/countries)
   + [countries/id](https://cities-api-bam.herokuapp.com/countries/id)
   + [states](https://cities-api-bam.herokuapp.com/states)
   + [cities](https://cities-api-bam.herokuapp.com/cities)
